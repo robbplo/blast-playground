@@ -1,0 +1,14 @@
+{
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx jasmine tests/javascript/blastSpec.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^4.3.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "robbinploeger/blast-playground",
+    "autoload": {
+        "psr-4": {
+            "Robbinploeger\\BlastPlayground\\": "src/"
+        },
+        "files": [
+            "tests/php/bootstrap.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Robbin Ploeger",
+            "email": "robbplo@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit tests/php/BLASTTest.php"
+    }
+}
